@@ -12,10 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.oplovers.animevideos.oploverz_network.RetrofitClient;
-import com.oplovers.animevideos.oploverz_network.apis.PassResetApi;
-import com.oplovers.animevideos.oploverz_network.model.PasswordReset;
-import com.oplovers.animevideos.oploverz_utl.ToastMsg;
+import com.oplovers.animevideos.oplovers_network.RetrofitClient;
+import com.oplovers.animevideos.oplovers_network.apis.PassResetApi;
+import com.oplovers.animevideos.oplovers_network.model.PasswordReset;
+import com.oplovers.animevideos.oplovers_utl.ToastMsg;
 
 import retrofit2.Call;
 import retrofit2.Callback;

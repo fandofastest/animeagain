@@ -27,7 +27,7 @@ import com.facebook.ads.InterstitialAdListener;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.ixidev.gdpr.GDPRChecker;
-import com.oplovers.animevideos.oploverz_utl.ApiResources;
+import com.oplovers.animevideos.oplovers_utl.ApiResources;
 import com.startapp.android.publish.adsCommon.StartAppAd;
 import com.startapp.android.publish.adsCommon.StartAppSDK;
 import com.startapp.android.publish.adsCommon.adListeners.AdDisplayListener;
@@ -35,7 +35,7 @@ import com.startapp.android.publish.adsCommon.adListeners.AdDisplayListener;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import static com.oplovers.animevideos.oploverz_utl.MyAppClass.getContext;
+import static com.oplovers.animevideos.oplovers_utl.MyAppClass.getContext;
 
 
 public class SplashscreenActivity extends AppCompatActivity {

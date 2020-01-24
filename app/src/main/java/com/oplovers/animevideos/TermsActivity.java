@@ -16,7 +16,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.oplovers.animevideos.oploverz_utl.ApiResources;
+import com.oplovers.animevideos.oplovers_utl.ApiResources;
 
 public class TermsActivity extends AppCompatActivity {
 

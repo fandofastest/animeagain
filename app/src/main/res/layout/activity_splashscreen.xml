@@ -25,15 +25,15 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:text="Start"
         android:layout_marginTop="600dp"
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_centerHorizontal="true"
         android:id="@+id/startbut"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/white"/>
     <include
 
         android:id="@+id/llProgressBar"

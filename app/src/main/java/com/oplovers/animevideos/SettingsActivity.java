@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.oplovers.animevideos.oploverz_utl.Tools;
+import com.oplovers.animevideos.oplovers_utl.Tools;
 
 public class SettingsActivity extends AppCompatActivity {
 

@@ -19,15 +19,15 @@ import android.widget.TextView;
 
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.oplovers.animevideos.oploverz_adapter.LiveTvAdapter2;
-import com.oplovers.animevideos.oploverz_adapter.SearchAdapter;
-import com.oplovers.animevideos.oploverz_network.RetrofitClient;
-import com.oplovers.animevideos.oploverz_network.apis.SearchApi;
-import com.oplovers.animevideos.oploverz_network.model.CommonModel;
-import com.oplovers.animevideos.oploverz_network.model.SearchModel;
-import com.oplovers.animevideos.oploverz_network.model.TvModel;
-import com.oplovers.animevideos.oploverz_utl.ApiResources;
-import com.oplovers.animevideos.oploverz_utl.ToastMsg;
+import com.oplovers.animevideos.oplovers_adapter.LiveTvAdapter2;
+import com.oplovers.animevideos.oplovers_adapter.SearchAdapter;
+import com.oplovers.animevideos.oplovers_network.RetrofitClient;
+import com.oplovers.animevideos.oplovers_network.apis.SearchApi;
+import com.oplovers.animevideos.oplovers_network.model.CommonModel;
+import com.oplovers.animevideos.oplovers_network.model.SearchModel;
+import com.oplovers.animevideos.oplovers_network.model.TvModel;
+import com.oplovers.animevideos.oplovers_utl.ApiResources;
+import com.oplovers.animevideos.oplovers_utl.ToastMsg;
 
 import java.util.ArrayList;
 import java.util.List;

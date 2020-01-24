@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gospelware.liquidbutton:liquidButtonLib:1.1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42d2ce10fece43ef0e527e0c004a49d1/jetified-liquidButtonLib-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/42d2ce10fece43ef0e527e0c004a49d1/jetified-liquidButtonLib-1.1.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gospelware.liquidbutton/liquidButtonLib/1.1.5/ef455a7d06e2f425bbca79590ad870387549d52f/liquidButtonLib-1.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gospelware.liquidbutton/liquidButtonLib/1.1.5/aaa328b350ab03bd2e867fcc25bed90fd5a6a9f8/liquidButtonLib-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
