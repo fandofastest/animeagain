@@ -23,13 +23,13 @@ android {
         applicationId "com.oplovers.animevideos"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         manifestPlaceholders = [
-                onesignal_app_id               : 'fdfaa046-9377-4078-b051-8d142bc3c4a7',
+                onesignal_app_id               : '5d1c32f0-39cc-474e-8767-2ab4b10eacef',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: 'REMOTE'
         ]
