@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.oplovers.animevideos"
+    package="com.oploverz.newanime"
     tools:ignore="MissingLeanbackLauncher">
 
     <uses-feature
@@ -19,7 +19,7 @@
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
 
     <application
-        android:name="com.oplovers.animevideos.oplovers_utl.MyAppClass"
+        android:name="com.oploverz.newanime.oploverz_utl.MyAppClass"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.oplovers.animevideos.WebViewActivity"
+        <activity android:name="com.oploverz.newanime.WebViewActivity"
             android:screenOrientation="landscape"
             android:theme="@style/FullscreenTheme"></activity>
 
@@ -43,49 +43,49 @@
             android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
 
         <activity
-            android:name="com.oplovers.animevideos.TermsActivity"
+            android:name="com.oploverz.newanime.TermsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.ReplyActivity"
+            android:name="com.oploverz.newanime.ReplyActivity"
             android:label="@string/title_activity_reply"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.oplovers.animevideos.ProfileActivity"
+            android:name="com.oploverz.newanime.ProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.PassResetActivity"
+            android:name="com.oploverz.newanime.PassResetActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.SearchActivity"
+            android:name="com.oploverz.newanime.SearchActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.SignUpActivity"
+            android:name="com.oploverz.newanime.SignUpActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.LoginActivity"
+            android:name="com.oploverz.newanime.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.DetailsActivity"
+            android:name="com.oploverz.newanime.DetailsActivity"
             android:configChanges="screenLayout|screenSize|orientation"
             android:label="@string/title_activity_details"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
         <activity
-            android:name="com.oplovers.animevideos.MainActivity"
+            android:name="com.oploverz.newanime.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.oplovers.animevideos.SettingsActivity"
+            android:name="com.oploverz.newanime.SettingsActivity"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.SplashscreenActivity"
+            android:name="com.oploverz.newanime.SplashscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme">
@@ -96,19 +96,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.oplovers.animevideos.ItemMovieActivity"
+            android:name="com.oploverz.newanime.ItemMovieActivity"
             android:label="@string/title_activity_item_show"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.oplovers.animevideos.ItemTVActivity"
+            android:name="com.oploverz.newanime.ItemTVActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
         <activity
-            android:name="com.oplovers.animevideos.ItemSeriesActivity"
+            android:name="com.oploverz.newanime.ItemSeriesActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Nobar" />
-        <activity android:name="com.oplovers.animevideos.UpdateActivity"/>
+        <activity android:name="com.oploverz.newanime.UpdateActivity"/>
     </application>
 
 </manifest>

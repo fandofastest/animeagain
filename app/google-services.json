@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "282603069380",
-    "firebase_url": "https://animeherry.firebaseio.com",
-    "project_id": "animeherry",
-    "storage_bucket": "animeherry.appspot.com"
+    "project_number": "786891869959",
+    "firebase_url": "https://animeagain-bbfcd.firebaseio.com",
+    "project_id": "animeagain-bbfcd",
+    "storage_bucket": "animeagain-bbfcd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:282603069380:android:20d39affea6c32d8990e91",
+        "mobilesdk_app_id": "1:786891869959:android:93786ed4b9b4fe81097fa2",
         "android_client_info": {
-          "package_name": "com.oplovers.animevideos"
+          "package_name": "com.oploverz.newanime"
         }
       },
       "oauth_client": [
         {
-          "client_id": "282603069380-giq1b8lkj2iup6l9jvu1oqldv6klij4f.apps.googleusercontent.com",
+          "client_id": "786891869959-8ce2fdn6qqs2ja8ge97g2gr7mfhc4tme.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBPDyBy2OOTMSQtW0HwdYHwEjjWpdaqQB0"
+          "current_key": "AIzaSyA1ECJATRyylrP6dyeA0YjX9zvjwDD6iv4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "282603069380-giq1b8lkj2iup6l9jvu1oqldv6klij4f.apps.googleusercontent.com",
+              "client_id": "786891869959-8ce2fdn6qqs2ja8ge97g2gr7mfhc4tme.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
