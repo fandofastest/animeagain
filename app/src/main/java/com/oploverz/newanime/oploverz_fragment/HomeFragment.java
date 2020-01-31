@@ -34,6 +34,7 @@ import com.facebook.shimmer.ShimmerFrameLayout;
 import com.ixidev.gdpr.GDPRChecker;
 import com.oploverz.newanime.DetailsActivity;
 import com.oploverz.newanime.ItemMovieActivity;
+import com.oploverz.newanime.ItemSeriesActivity;
 import com.oploverz.newanime.ItemTVActivity;
 import com.oploverz.newanime.MainActivity;
 import com.oploverz.newanime.R;
@@ -323,7 +324,7 @@ public class HomeFragment extends Fragment {
         btnMorelatestSeries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), ItemMovieActivity.class);
+                Intent intent = new Intent(getContext(), ItemSeriesActivity.class);
                 intent.putExtra("url", apiResources.getTvSeries());
                 intent.putExtra("title", "Anime");
                 getActivity().startActivity(intent);

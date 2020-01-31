@@ -24,6 +24,7 @@ import com.oploverz.newanime.oploverz_model.SubtitleModel;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static android.content.ContentValues.TAG;
@@ -83,12 +84,17 @@ public class DirectorApater extends RecyclerView.Adapter<DirectorApater.Original
 
         String currentString = obj.getEpi();
 
-        String[] separated = currentString.split("-");
-        String[] separatedepi = separated[1].split(" ");
+        String str = currentString.replaceAll("\\D+","");
 
-        holder.name.setText(separated[0]);
-        holder.epi.setText(separatedepi[2]);
+//        String[] separated = currentString.split("-");
+//        String[] separatedepi = separated[1].split(" ");
+
+
+        holder.epi.setText(str);
         holder.name.setText(obj.getEpi());
+//
+//        System.out.println(Arrays.toString(separated));
+//        System.out.println(Arrays.toString(separatedepi));
 
         Picasso.get().load(obj.getImageUrl()).placeholder(R.drawable.poster_placeholder)
                 .into(holder.episodIv);
